@@ -7,5 +7,5 @@ spec:
   interval: 30s
   ref:
     branch: development
-  url: https://github.com/giantswarm/flux-demo
+  url: https://github.com/pg2000/flux-demo
   timeout: 30s
