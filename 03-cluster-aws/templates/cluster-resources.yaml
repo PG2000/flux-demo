@@ -63,7 +63,7 @@ spec:
     nodes: {}
     pods:
       externalSNAT: false
-    region: ""
+    region: {{ .Values.region }}
 status:
   cluster: {}
   provider:

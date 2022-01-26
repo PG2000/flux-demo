@@ -4,6 +4,7 @@ metadata:
   name: install-cluster-aws-chart
   namespace: default
 spec:
+  serviceAccountName: automation
   interval: 15s
   chart:
     spec:
