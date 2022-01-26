@@ -2,7 +2,6 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
   name: flux-demo
-  namespace: flux-system
 spec:
   interval: 30s # How often Flux checks for repository updates (new commits)
   ref:
