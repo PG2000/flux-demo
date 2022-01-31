@@ -60,7 +60,7 @@ spec:
       min: 3
   provider:
     availabilityZones:
-    - "eu-west-1a"
+    - {{ .Values.region }}
     instanceDistribution:
       onDemandBaseCapacity: 0
       onDemandPercentageAboveBaseCapacity: 100
