@@ -3,4 +3,4 @@ organization: flux-demo
 namespace: org-flux-demo
 controlplaneid: tj0a6
 description: flux-demo
-region: eu-central-1
+region: eu-central-1a
