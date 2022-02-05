@@ -1,2 +1,3 @@
 resources:
-- resources.yaml
+- crm-dev.yaml
+- crm-uat.yaml

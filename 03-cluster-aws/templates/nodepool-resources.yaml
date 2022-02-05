@@ -56,8 +56,8 @@ spec:
       dockerVolumeSizeGB: 100
       kubeletVolumeSizeGB: 100
     scaling:
-      max: 10
-      min: 3
+      max: 3
+      min: 2
   provider:
     availabilityZones:
     - {{ .Values.region }}
